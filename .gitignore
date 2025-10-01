@@ -15,7 +15,6 @@
 .todo
 
 *.nupkg
-.vscode/
 .idea/
 
 # Path for actions cache created when running tests
@@ -27,8 +26,9 @@ dist/local/act
 coverage.txt
 unit-tests.xml
 
-.env
 .secrets
 
 # megalinter
 report/
+config.bat
+node_modules
